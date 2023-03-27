@@ -99,3 +99,37 @@ a, .btn-link {
     .loading-progress-text:after {
         content: var(--blazor-load-percentage-text, "Loading");
     }
+    .loading-text:after {
+        content: var(--blazor-load-percentage-text, "Loading");
+    }
+
+.button-radius {
+    background-color: rgb(41,118,211);
+    color: white;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 80px;
+    border-radius: 36px;
+    cursor: pointer;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: background-color 2s;
+}
+
+    .button-radius:hover {
+        background-color: midnightblue;
+        color: white;
+        opacity: 0.3;
+        transition: opacity 2s;
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    }
+
+.roboto {
+    font-family: Roboto;
+}
+
+.image{
+    width: 600px;
+    padding: 8px;
+}
